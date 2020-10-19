@@ -13,7 +13,7 @@ pipeline
 	    skipDefaultCheckout()
 	  }
 	  
-	  step 
+	  steps 
 	  {
 	    echo "Hello from jenkinsfile"
 	  }
